@@ -1,0 +1,63 @@
+# Midterm - ls(1)
+
+## Description
+
+This project implements the ls(1) command according to the
+provided NetBSD ls(1) manual.
+
+## Supported options
+
+-A
+-a
+-c
+-d
+-F
+-f
+-h
+-i
+-k
+-l
+-n
+-q
+-R
+-r
+-S
+-s
+-t
+-u
+-w
+
+## Build
+
+make
+
+## Examples
+
+./ls
+./ls -a
+./ls -A
+./ls -l
+./ls -la
+./ls -i
+./ls -F
+./ls -R
+./ls -r
+./ls -S
+./ls -t
+./ls -n
+./ls -h
+
+## Grep Scenario
+
+A security log was created and grep was used to filter
+ERROR, WARNING, and permission-related events.
+
+## Files
+
+ls.c       Main ls implementation
+ls.h       Data structures and declarations
+print.c    Output and long-format functions
+print.h    Output declarations
+Makefile   Build configuration
+README     Project documentation
+checklist  Assignment checklist
